@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETO  - Hackacton S11</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script>   
+</head>
+<body>
+    <div class="calculator-body">
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previous-operation class="previous-operation"></div>
+                <div data-current-operation class="current-operation"></div>
+            </div>
+            <button data-all-clear>AC</button>
+            <button data-delete>DEL</button>
+            <button data-operation>^</button>
+            <button data-operation>MOD</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>÷</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>*</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>-</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-equals>=</button>
+            <button data-operation>+</button>
+        </div>
+    </div>
+    <div class="todolist-body">
+        <div class="header">
+            <h2>Mi Lista Por-Hacer</h2>
+            <input label-task type="text" name="tasks" placeholder="Ingresa la tarea pendiente">
+            <button add-task class="button-addTask">Agregar</button>
+        </div>
+        <ul list-task>
+            <li class="checked">Ir de compras</li>
+            <li>Botar la basura</li>
+        </ul>
+    </div>
+</body>
+</html>
